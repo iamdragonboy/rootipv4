@@ -59,10 +59,9 @@ async def port(ctx, arg=None):
         await ctx.send(manager.add_ports(ctx.author.id))
     elif arg == "http":
         await ctx.send(manager.get_port_urls(ctx.author.id))
-    else:
-   await ctx.send("Usage:\n`./port add` to assign default ports\n`./port http` to get URLs")
+    
 
-@bot.tree.command(name="help", description="Shows the help message")
+@bot.command(name="help", description="Shows the help message")
 async def help_command(interaction: discord.Interaction):
     embed = discord.Embed(title="help", color=0x00ff00)
     embed.add_field(name="/deployipv4", value="Creates a new Instance with Ubuntu 22.04.", inline=False)
