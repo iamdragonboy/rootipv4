@@ -21,7 +21,7 @@ if ! command -v python3 &> /dev/null; then
 fi
 
 # Verify the key
-CORRECT_KEY="root99"
+CORRECT_KEY="ipv"
 read -p "Enter the setup key to proceed: " USER_KEY
 
 if [[ "$USER_KEY" != "$CORRECT_KEY" ]]; then
