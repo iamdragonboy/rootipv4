@@ -1,3 +1,3 @@
 ```
-bash <(curl -s https://raw.githubusercontent.com/Gamerzhacker/rootipv4/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/iamdragonboy/rootipv4/main/install.sh)
 ```
